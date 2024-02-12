@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap" rel="stylesheet">
+    <title>Poems API</title>
+</head>
+<body>
+
+    <header>
+        <h1>Daily Poem API</h1>
+        <span><em>"Start a meeting with a poem. That would be an idea you might take with you."</em></span>
+        <span>- Billy Collins</span>
+        
+    </header>
+
+    <div id="main-container">
+        <main> 
+            <div class="left">
+                <section id="endpoints">
+                    <h2>Endpoints</h2>
+            
+                    <p>To get a poem by title:</p>
+                    <code class="code">{/title/{title of poem}}</code>
+
+                    <p>To get a poem by author:</p>
+                    <code class="code">{/author/{author of poem}}</code>
+
+                    <p>To get a poem by century:</p>
+                    <code class="code">{/century/{century of poem}}</code>
+
+                    <p>To get a poem by style:</p>
+                    <code class="code">{/style/{style of poem}}</code>
+                    
+                    <p>To get a random poem:</p>
+                    <code class="code">{/random}</code>
+
+                    <p>To get all poems:</p>
+                    <code class="code">{/all}</code>
+                </section>
+            </div>
+
+            <div class="right">
+                <section id="poem">  
+                        <pre id="title">October, 1803</pre>
+                        <pre id="author">by Williams Wordsworth</pre>
+                        <pre id="text"></pre>
+                </section>
+            </div>
+        </main>
+    </div>
+
+    <footer>
+        <a href="https://github.com/philmach2">Build by Phil Mach</a>
+        <img src="/img/github-logo.png" alt="github-logo">
+    </footer>
+
+    <script src="/js/main.js"></script>
+</body>
+</html>

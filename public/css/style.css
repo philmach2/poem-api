@@ -1,0 +1,64 @@
+* {
+    font-family: 'Merriweather', serif;
+}
+
+body {
+    background-color: rgba(233, 214, 184);
+}
+
+header {
+    background-color: rgba(51, 51, 51, 1);
+    text-align: center;
+    color: rgb(250, 242, 237);
+    padding: 20px;
+}
+
+#endpoints p {
+    padding: 20px 0;
+}
+
+#main-container {
+    display: flex;
+    padding: 20px;
+    min-height: 100vh;
+}
+
+.code {
+    background-color: rgb(250, 242, 237);
+    padding: 20px;
+}
+
+#main-container main {
+    display: flex;
+    flex-grow: 1;
+    padding-left: 4em;
+    padding-right: 4em;
+    /* max-width: 800px; */
+    justify-content: space-around;
+}
+
+footer {
+    background-color: rgba(51, 51, 51, 1);
+    color: rgb(250, 242, 237);
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+}
+
+footer > a {
+    font-size: 18px;
+    text-decoration: none;
+    color: rgb(230, 230, 230);  
+}
+
+a:hover{
+    font-size: 21px;
+}
+
+footer > img{
+    margin: 0px 4px;
+    height: 22px;
+}
